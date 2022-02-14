@@ -9,13 +9,13 @@ public class Variables {
 		//NUMERICAS
 		
 		//1 - ENTEROS
-		byte 	varByte 	= 100; 			//1 Byte (8 bits)   - Desde -2^7 a (+2^7)-1 => -128 a 127
-		short 	varShort 	= -300; 		//2 Bytes (16 bits) - Desde -2^15 a (+2^15)-1 => -32.768 a 32.767
-		int		varInt 		= 2147483647;	//4 Bytes (32 bits) - Desde -2^31 a (+2^31)-1 => -2.147.483.648 a 2.147.483.647
+		byte 	varByte 	= 100; 		//1 Byte (8 bits)   - Desde -2^7 a (+2^7)-1 => -128 a 127
+		short 	varShort 	= -300; 	//2 Bytes (16 bits) - Desde -2^15 a (+2^15)-1 => -32.768 a 32.767
+		int	varInt 		= 2147483647;	//4 Bytes (32 bits) - Desde -2^31 a (+2^31)-1 => -2.147.483.648 a 2.147.483.647
 		long	varLong 	= 21474883647L;	//8 Bytes (64 bits) - Desde -2^63 a (+2^63)-1 => -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
 		
 		//2 - REALES
-		float 	varFloat 	= 37.58F;		//4 Bytes. Precision Simple
+		float 	varFloat 	= 37.58F;	//4 Bytes. Precision Simple
 		double 	varDouble 	= 56.1238792;	//8 Bytes. Precision Doble
 		
 		//3 - BOOLEANOS
