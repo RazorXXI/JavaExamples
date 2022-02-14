@@ -26,9 +26,15 @@ public class EjemplosDeListas {
 		//Transformar en Array
 		System.out.println("El tamaño de la lista es: " + listaDeNombres.size());
 		String[] arrayDeNombres = new String[listaDeNombres.size()];
+		listaDeNombres.toArray(arrayDeNombres);
+		System.out.println("Elementos en el array: " + Arrays.toString(arrayDeNombres));
 		
-		
-
+		//Buscar un elemento en la lista
+		if(listaDeNombres.contains("MIGUEL")) {
+			System.out.println("El elemento buscado se encuentra en la lista");
+		}
+		else {
+			System.out.println("El elemento buscado NO se encuentra en la lista");
+		}		
 	}
-
 }
