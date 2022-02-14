@@ -2,14 +2,14 @@ package clases;
 
 public class Garage {
 
-	//Declaración de Constantes
-	private static final int _NUM_PLAZAS_DEFAULT = 60;
+	//DeclaraciÃ³n de Constantes
+	private static final int _NUM_PLAZAS_DEFAULT = 60; #2
 	
 	//Declaracion de atributos
 	private Plaza[] plazas;
 	private int numPlazas;
 	
-	//Declaración de métodos
+	//DeclaraciÃ³n de mÃ©todos
 	
 	//Constructor con parametros
 	public Garage(int numPlazas) {
