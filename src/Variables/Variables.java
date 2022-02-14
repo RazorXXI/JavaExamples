@@ -15,8 +15,8 @@ public class Variables {
 		long	varLong 	= 21474883647L;	//8 Bytes (64 bits) - Desde -2^63 a (+2^63)-1 => -9.223.372.036.854.775.808 a 9.223.372.036.854.775.807
 		
 		//2 - REALES
-		float 	varFloat 	= 37.58F;	//4 Bytes. Precision Simple
-		double 	varDouble 	= 56.1238792;	//8 Bytes. Precision Doble
+		float 	varFloat 	= 37.58F;	//4 Bytes. Precisión Simple
+		double 	varDouble 	= 56.1238792;	//8 Bytes. Precisión Doble
 		
 		//3 - BOOLEANOS
 		boolean varBoolean = true;		//Solo pueden tomar como valores true o false
