@@ -6,8 +6,8 @@ public class Variables {
 	public static String varClaseString = "ESTA ES UNA VARIABLE DE CLASE";
 	
 	public void ejemploVariablesPrimitivas() {
-		//NUMERICAS
 		
+		//NUMERICAS
 		//1 - ENTEROS
 		byte 	varByte 	= 100; 		//1 Byte (8 bits)   - Desde -2^7 a (+2^7)-1 => -128 a 127
 		short 	varShort 	= -300; 	//2 Bytes (16 bits) - Desde -2^15 a (+2^15)-1 => -32.768 a 32.767
