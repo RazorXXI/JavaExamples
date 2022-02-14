@@ -1,6 +1,8 @@
 package variables;
 
+import clases.Television;
 import java.util.*;
+
 
 public class Variables {
 
@@ -51,11 +53,12 @@ public class Variables {
 		varList.add("CADENA DE LISTA3");
 		varList.add("CADENA DE LISTA4");
 		
-		//DE OBJETO GARAGE
-		//Garage garage = new Garage();
+		//OBJETO TIPO TELEVISION
+		Television varTelevision = new Television("SONY", 71);
 		
 		System.out.println("varString: " + varString);
 		System.out.println("varArray: " + Arrays.toString(varArray));
 		System.out.println("varList: " + Arrays.toString(varList.toArray()));
+		System.out.println("varTelevision: " + varTelevision);
 	}
 }
