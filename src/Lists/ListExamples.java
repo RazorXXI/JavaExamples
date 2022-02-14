@@ -31,7 +31,7 @@ public class EjemplosDeListas {
 		
 		//Buscar un elemento en la lista
 		if(listaDeNombres.contains("MIGUEL")) {
-			System.out.println("El elemento buscado se encuentra en la lista");
+			System.out.println("El elemento buscado SI se encuentra en la lista");
 		}
 		else {
 			System.out.println("El elemento buscado NO se encuentra en la lista");
