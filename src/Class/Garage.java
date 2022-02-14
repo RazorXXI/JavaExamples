@@ -3,7 +3,7 @@ package clases;
 public class Garage {
 
 	//Declaración de Constantes
-	private static final int _NUM_PLAZAS_DEFAULT = 60; #2
+	private static final int _NUM_PLAZAS_DEFAULT = 60;
 	
 	//Declaracion de atributos
 	private Plaza[] plazas;
