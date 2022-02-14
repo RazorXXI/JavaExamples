@@ -19,10 +19,10 @@ public class Variables {
 		double 	varDouble 	= 56.1238792;	//8 Bytes. Precision Doble
 		
 		//3 - BOOLEANOS
-		boolean varBoolean = true;			//Solo pueden tomar como valores true o false
+		boolean varBoolean = true;		//Solo pueden tomar como valores true o false
 		
 		//4 - CARACTER
-		char varChar = 'c'; 				//Representa cualquier caracter del lenguaje humano.
+		char varChar = 'c'; 			//Representa cualquier caracter del lenguaje humano.
 		
 		System.out.println("varByte: " + varByte);
 		System.out.println("varShort: " + varShort);
