@@ -1,7 +1,6 @@
 package listas;
 import java.util.*;
 
-
 public class EjemplosDeListas {
 
 	public static void main(String[] args) {
