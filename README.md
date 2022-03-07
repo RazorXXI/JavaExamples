@@ -15,3 +15,4 @@ Actualmente las carpetas que podemos encontrar son:
 - [Lectura por teclado](/src/lectura): En esta carpeta veremos algunos ejemplos de como leer por teclado datos en Java.
 - [Arrays](/src/arrays): En esta carpeta tenemos un archivo con ejemplos de como declarar e instanciar arrays en Java.
 - [Funciones de Cadena](/src/funcionesCadena): Aqui tenemos una serie de ejemplos para ver que funciones utiles tenemos a la hora de manejar tipos de datos String.
+- [Mapas](/src/mapas): En esta carpeta, tenemos un archivo con ejemplo de uso y manejo de estructuras de datos de tipo Maps.
