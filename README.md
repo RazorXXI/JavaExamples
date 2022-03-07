@@ -12,3 +12,5 @@ Actualmente las carpetas que podemos encontrar son:
 - [Listas](/src/listas): Ejemplos de el manejo con tipos de datos LISTAS, su implementación, declaración y aplicación.
 - [Clases](/src/clases): En esta carpeta encontramos declaraciónes de clases asi como su uso, instanciación, etc.
 - [Metodos](/src/metodos): En esta carpeta encontramos la manera de crear y usar métodos de clase, ademas de ejemplos de uso.
+- [Lectura por teclado](/src/lectura): En esta carpeta veremos algunos ejemplos de como leer por teclado datos en Java.
+- [Arrays](/src/arrays): En esta carpeta tenemos un archivo con ejemplos de como declarar e instanciar arrays en Java.
