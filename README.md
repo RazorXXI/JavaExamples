@@ -17,3 +17,4 @@ Actualmente las carpetas que podemos encontrar son:
 - [Funciones de Cadena](/src/funcionesCadena): Aqui tenemos una serie de ejemplos para ver que funciones utiles tenemos a la hora de manejar tipos de datos String.
 - [Mapas](/src/mapas): En esta carpeta, tenemos un archivo con ejemplo de uso y manejo de estructuras de datos de tipo Maps.
 - [Estructuras de Control](/src/estructurasDeControl): En esta carpeta veremos ejemplos de diferentes estructuras para control de flujo de nuestros programas.
+- [Manejo de Excepciones](/src/excepciones): Aqui encontramos algunos ejemplos del manejo de excepciones en JAVA.
