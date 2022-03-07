@@ -16,3 +16,4 @@ Actualmente las carpetas que podemos encontrar son:
 - [Arrays](/src/arrays): En esta carpeta tenemos un archivo con ejemplos de como declarar e instanciar arrays en Java.
 - [Funciones de Cadena](/src/funcionesCadena): Aqui tenemos una serie de ejemplos para ver que funciones utiles tenemos a la hora de manejar tipos de datos String.
 - [Mapas](/src/mapas): En esta carpeta, tenemos un archivo con ejemplo de uso y manejo de estructuras de datos de tipo Maps.
+- [Estructuras de Control](/src/estructurasDeControl): En esta carpeta veremos ejemplos de diferentes estructuras para control de flujo de nuestros programas.
