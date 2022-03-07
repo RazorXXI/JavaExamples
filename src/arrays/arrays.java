@@ -1,3 +1,5 @@
+package arrays;
+
 import java.util.*;
 import clases.Television;
 
@@ -20,9 +22,8 @@ public class arrays {
 		//Instanaciacion
 		arrayEnteros = new int[10]; //Instanciación del array de enteros con 10 elementos. De 0 a 9
 		arrayTelevisions = new Television[3];//Instanciación del array de objetos
-		arrayCadena = new String[3];//Instanciacion del array de strings
-		
-		array2DEnteros = new int[3][3]; //Instanciacion del array de 2 dimensiones 
+		arrayCadena = new String[3];//Instanciacion del array de strings		
+		array2DEnteros = new int[2][3]; //Instanciacion del array de 2 dimensiones 
 		
 		//Asignaciones de arrays
 		arrayEnteros[0] = 1;
@@ -39,5 +40,41 @@ public class arrays {
 		
 		//Llamamos al metodo ToString de la posición indicada por [0][1] del array
 		System.out.println(array2DEnteros[0][1]);
+		//Otra manera de llamar al metodo toString para mostrar el contenido de un array
+		System.out.println(Arrays.toString(arrayCadena));
+		
+		//Metodo para ver el tamaño de un array
+		System.out.println("Tamaño del arrayCadena: " + arrayCadena.length + " elementos");
+		System.out.println("Tamaño del array2DEnteros: " + array2DEnteros.length + " filas");
+		System.out.println("Tamaño del array2DEnteros: " + array2DEnteros[0].length + " columnas");
+		
+		System.out.println(args[0]);
+		System.out.println(args[1]);
+		
+		/**
+		 * Explicación del String[] args del método main.
+		 * 
+		 * Sirve para pasarle algún argumento de entrada al main y poderlo utilizar dentro de el.
+		 * 
+		 * Si llamamos desde la línea de comandos al método main por ejemplo tal que asi:
+		 *     > arrays.main -v -h
+		 *     
+		 *     -v y -m seran argumentos que utilizaremos dentro de nuestro código
+		 *     
+		 *     Si hicieramos eso y en nuestro código tuvieramos:
+		 *     	System.out.println(args[0]);
+		 *     	System.out.println(args[1]);
+		 *     
+		 *     Estas instrucciones nos mostrarian en la consola :
+		 *     -v
+		 *     -h
+		 *     
+		 *     Si queremos hacer la prueba, nos vamos en Eclipse a:
+		 *     
+		 *     Run -> Run Configurations
+		 *     En Run Configurations nos iremos a la pestaña Arguments y ahi dentro, en el cuadro que pone Program Arguments, 
+		 *     introduciremos:
+		 *     -v -h
+		 */
 	}
 }
