@@ -13,14 +13,7 @@ public class Television {
 
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Television [marca=");
-		builder.append(marca);
-		builder.append(", pulgadas=");
-		builder.append(pulgadas);
-		builder.append("]");
-		return super.toString();
+		return "Television [marca=" + marca + ", pulgadas=" + pulgadas + "]";
 	}
-	
 	
 }

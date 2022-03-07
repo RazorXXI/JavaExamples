@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Variables {
 
-	//Variables de clase. No se necesita instanciar a la clase para acceder a ellas.
+	//Variables de clase tipo Static. No se necesita instanciar a la clase para acceder a ellas.
 	public static String varClaseString = "ESTA ES UNA VARIABLE DE CLASE";
 	
 	public void ejemploVariablesPrimitivas() {

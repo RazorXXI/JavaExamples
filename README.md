@@ -8,6 +8,7 @@ Todos los ejemplos se encuentran almacenados en el directorio [src](/src), donde
 
 Actualmente las carpetas que podemos encontrar son:
 
-- [variables](/src/variables): Aquí encontramos varios ejemplos de declaración y clases de variables que podemos encontrar en JAVA.
-- [listas](/src/listas): Ejemplos de el manejo con tipos de datos LISTAS, su implementación, declaración y aplicación.
-- [clases](/src/clases): En esta carpeta encontramos declaraciónes de clases asi como su uso, instanciación, etc.
+- [Variables](/src/variables): Aquí encontramos varios ejemplos de declaración y clases de variables que podemos encontrar en JAVA.
+- [Listas](/src/listas): Ejemplos de el manejo con tipos de datos LISTAS, su implementación, declaración y aplicación.
+- [Clases](/src/clases): En esta carpeta encontramos declaraciónes de clases asi como su uso, instanciación, etc.
+- [Metodos](/src/metodos): En esta carpeta encontramos la manera de crear y usar métodos de clase, ademas de ejemplos de uso.
