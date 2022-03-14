@@ -49,6 +49,12 @@
      - Ver ejemplo: ClaseLocal.java
 
  * anonima:
+     - Se crea en el momento de la instanciación.
+     - Se crea sin nombre.
+     - No se puede acceder a los atributos de la clase anónima.
+     - Se utilizan para redefinir métodos.
+     - Ver ejemplo: ClaseAnonima.java
+     
  * anidada: 
      - Es una clase que se encuentra declarada dentro de otra clase.
      - Solo puede instanciarse dentro de la clase externa.
