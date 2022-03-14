@@ -1,5 +1,5 @@
 # Definición de Clase:
- 	Una clase es un descriptor para un conjunto de objetos con similar estructura, comportamiento y relaciones.
+ Una clase es un descriptor para un conjunto de objetos con similar estructura, comportamiento y relaciones.
  
 ## Sintaxis de declaración de una clase:
  ```
@@ -15,18 +15,18 @@
 ## Tipos de Clases
  Las clases pueden ser de los siguientes tipos:
  
- 	 * publica: 
-             - Visible y accesible desde cualquier clase. 
- 			 - Puede ser Heredada. 
- 			 - Su sintaxis es "public class Nombre_Clase". 
-             - Ver ejemplo: ClasePublica.java
+ * publica: 
+     - Visible y accesible desde cualquier clase. 
+ 	 	 - Puede ser Heredada. 
+ 	 	 - Su sintaxis es "public class Nombre_Clase". 
+     - Ver ejemplo: ClasePublica.java
 
- 	 * package: 
-             - Es accesible desde las clases que estan en el mismo package.
-             - Solo puede ser heredada desde clases del mismo package.
-             - Su sintaxis es "class Nombre_Clase"
- 	 * final:
- 	 * abstracta:
- 	 * local:
- 	 * anonima:
- 	 * anidada:
+ * package: 
+     - Es accesible desde las clases que estan en el mismo package.
+     - Solo puede ser heredada desde clases del mismo package.
+     - Su sintaxis es "class Nombre_Clase"
+ * final:
+ * abstracta:
+ * local:
+ * anonima:
+ * anidada:
