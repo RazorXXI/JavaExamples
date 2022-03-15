@@ -19,13 +19,13 @@
      - Visible y accesible desde cualquier clase. 
  	 	 - Puede ser Heredada. 
  	 	 - Su sintaxis es "public class Nombre_Clase". 
-     - Ver ejemplo: ClasePublica.java
+     - Ver ejemplo: [ClasePublica.java](ClasePublica.java)
 
  * package: 
      - Es accesible desde las clases que estan en el mismo package.
      - Solo puede ser heredada desde clases del mismo package.
      - Su sintaxis es "class Nombre_Clase"
-     - Ver ejemplo: "ClaseTipoPackage.java"
+     - Ver ejemplo: [ClaseTipoPackage.java](ClaseTipoPackage.java)
 
  * final:
      - Son clases de las que no se puede heredar.
@@ -33,32 +33,31 @@
      - Estas si pueden heredar de otras clase, pero no al reves.
      - Mejoran la eficiencia, dado que al no ser herdables, se trabaja por tanto con las instancias de la propia clase.
      - Su sintaxis es "public final class Nombre_Clase".
-     - Ver ejemplo: ClaseFinal.java
+     - Ver ejemplo: [ClaseFinal.java](ClaseFinal.java)
 
  * abstracta:
      - Sirven para modelar conceptos tomando como base la herencia. Está pensada para ser la base de otras clases que derivaran de esta.
      - No se pueden instanciar objetos de esta clase.
      - Puede contener como minimo un metodo abstracto. Este debe ser definido o implementado por la clase hija que herede de la clase abstracta.
      - Su sintaxis es: "public abstract class Nombre_Clase".
-     - Ver ejemplo: ClaseAbstracta.java
+     - Ver ejemplo: [ClaseAbstracta.java](ClaseAbstracta.java)
 
  * local:
      - Es aquella que está declarada dentro de un método de una clase.
      - Puede acceder a las variables del método.
      - No puede acceder a los atributos de la clase externa
-     - Ver ejemplo: ClaseLocal.java
+     - Ver ejemplo: [ClaseLocal.java](ClaseLocal.java)
 
  * anonima:
      - Se crea en el momento de la instanciación.
      - Se crea sin nombre.
      - No se puede acceder a los atributos de la clase anónima.
      - Se utilizan para redefinir métodos.
-     - Ver ejemplo: ClaseAnonima.java
+     - Ver ejemplo: [ClaseAnonima.java](ClaseAnonima.java)
      
  * anidada: 
      - Es una clase que se encuentra declarada dentro de otra clase.
      - Solo puede instanciarse dentro de la clase externa.
      - Tiene acceso a los atributos de la clase externa.
      - Tambien pueden ser abstractas o finales.
-     - Ver ejemplo: ClaseAnidada.java
-     - Ver ejemplo: ClaseAnidada.java 
+     - Ver ejemplo: [ClaseAnidada.java](ClaseAnidada.java)
