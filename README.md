@@ -20,3 +20,4 @@ Actualmente las carpetas que podemos encontrar son:
  - [Manejo de Excepciones](/src/excepciones): Aqui encontramos algunos ejemplos del manejo de excepciones en JAVA.
  - [Constructores](/src/constructores): Ejemplos de métodos constructores.
  - [Interfaces](/src/interfaces): Ejemplos de uso e implementación de interfaces.
+ - [Polimorfismo](/src/polimorfismo): Ejemplos de polimorfismo y sus tipos en Java.
