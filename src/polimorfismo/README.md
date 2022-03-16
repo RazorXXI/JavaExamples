@@ -14,4 +14,4 @@ Si tenemos en cuenta lo anteriormente dicho, podemos atender a tres tipos de **p
 
  - **Sobrecarga**: En este tipo, existen métodos con identico nombre en clases que son totalmente independientes.
  - **Paramétrico**: Son aquellos que sus métodos tienen el mismo nombre, pero diferentes parámetros, tanto en tipo como en cantidad.
- - **Inclusión**: Es aquel que redefine por completo un método de una superclase, en una subclase utilizando una interaz común.
+ - **Inclusión**: Es aquel que redefine por completo un método de una superclase, en una subclase utilizando una interaz común. Lo podemos ver en los codigos de [Electrodomestico](Electrodomestico.java), [Lavadora](Lavadora.java), [Tostadora](Tostadora.java) y en el código que ejecuta ([EjecutarPolimorfismoI](EjecutarPolimorfismoI.java)).
