@@ -1,24 +1,26 @@
 package polimorfismo;
 
+/**
+ * Descripcion: Código para probar el concepto de polimorfismo de inclusion.
+ * 
+ * Variables:
+ * 	tipoElectrodomestico - Variable de tipo String que recibe el argumento pasado al programa
+ *  electro - Variable de tipo interface la cual se empleará para instanciar objetos de tipo Lavadora o Tostadora
+ * 
+ * Métodos:
+ * 	.isAveriado - Método de la interfaz que implementan las clases Lavadora y Tostadora
+ * */
 public class EjecutarPolimorfismoI {
 
 	public static void main(String[] args) {
-		String TipoElectrodomestico = args[0];
+		String tipoElectrodomestico = args[0];
 
-		//La variable electro es de la interface Electrodomestico
-		//Esta es comun a las clases Lavadora y Tostadora
 		Electrodomestico electro = null;
 		
-		if(TipoElectrodomestico.equals("Lavadora")) {
-
-			//Si el argumento que pasamos al programa es "Lavadora"
-			//Instanciamos un objeto de clase Lavadora
+		if(tipoElectrodomestico.equals("Lavadora")) {
 			electro = new Lavadora("Balay", 100);
 		}
-		else if (TipoElectrodomestico.equals("Tostadora")) {
-
-			//Si el argumento que pasamos al programa es "Tostadora"
-			//Instanciamos un objeto de clase Tostadora
+		else if (tipoElectrodomestico.equals("Tostadora")) {
 			electro = new Tostadora("Moulinex", 300);
 		}
 		else {
@@ -26,10 +28,7 @@ public class EjecutarPolimorfismoI {
 		}
 		
 		if (electro != null) {
-			//En esta sentencia es donde podemos observar el concepto de polimorfismo
-			//dado que el método .isAveriado() es comun a objetos de distinta clase
 			System.out.println("Estado de averia: " + electro.isAveriado());
 		}
 	}
-
 }
