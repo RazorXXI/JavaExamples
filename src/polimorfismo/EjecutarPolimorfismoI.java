@@ -5,7 +5,7 @@ package polimorfismo;
  * 
  * Variables:
  * 	tipoElectrodomestico - Variable de tipo String que recibe el argumento pasado al programa
- *  electro - Variable de tipo interface la cual se empleará para instanciar objetos de tipo Lavadora o Tostadora
+ *      electro - Variable de tipo interface la cual se empleará para instanciar objetos de tipo Lavadora o Tostadora
  * 
  * Métodos:
  * 	.isAveriado - Método de la interfaz que implementan las clases Lavadora y Tostadora
