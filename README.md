@@ -21,3 +21,4 @@ Actualmente las carpetas que podemos encontrar son:
  - [Constructores](/src/constructores): Ejemplos de métodos constructores.
  - [Interfaces](/src/interfaces): Ejemplos de uso e implementación de interfaces.
  - [Polimorfismo](/src/polimorfismo): Ejemplos de polimorfismo y sus tipos en Java.
+ - [Herencia](/src/herencia): Ejemplos y tips del uso de la Herencia en Java.
