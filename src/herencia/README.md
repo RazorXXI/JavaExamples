@@ -22,6 +22,6 @@ La sintaxis es la siguiente:
 }
 ```
 
-Un ejemplo de esto, lo podemos ver en el ejemplo de la [Clase Coche](coche.java), la cual sería la clase padre o superclase y la [Clase Ford](ford.java), que seria la subclase de `Coche` y a su vez la [Clase FordScort](fordscort.java) que sería subclase de la clase `Ford`.
+Un ejemplo de esto, lo podemos ver en el ejemplo de la [Clase Coche](coche.java), la cual sería la clase padre o superclase y la [Clase Ford](ford.java), que seria la subclase de `Coche` y a su vez la [Clase FordScort](fordscort.java) que sería subclase de la clase `Ford`. 
 
 [^1]: Programación Orientada a Objetos. A lo largo de las explicaciones lo verás como POO.

@@ -9,7 +9,7 @@ public class Coche {
 		super();
 		this.depositoLitros = depositoLitros;
 		this.velocidad = velocidad;
-		this.color = color;
+		this.color = color; 
 	}
 	
 	public void frenar() {
