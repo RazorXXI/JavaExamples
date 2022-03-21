@@ -22,3 +22,4 @@ Actualmente las carpetas que podemos encontrar son:
  - [Interfaces](/src/interfaces): Ejemplos de uso e implementación de interfaces.
  - [Polimorfismo](/src/polimorfismo): Ejemplos de polimorfismo y sus tipos en Java.
  - [Herencia](/src/herencia): Ejemplos y tips del uso de la Herencia en Java.
+ - [Operador instanceof y Método finalize](/src/instanceof): Ejemplo y tips de uso del operador instanceof y finalize en Java.
