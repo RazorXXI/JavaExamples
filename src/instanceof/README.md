@@ -25,7 +25,8 @@ Este método, es muy empleado para eliminar conexiones con bases de datos, cerra
 Un ejemplo de método `finalize` podría ser perfectamente este:
 
 ```Java
-public void finalize() throws Throwable {
+@Override
+protected void finalize() throws Throwable {
 	System.out.println("Finalizando Objeto");
 	super.finalize();
 }
