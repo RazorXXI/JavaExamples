@@ -18,8 +18,8 @@ Podemos ver esto mejor, si observamos los ejemplos de las clases [Coche](Coche.j
 Los modificadores *final* y *static*, son lo que se conocen con el nombre de **Modificadores de No Acceso**. Estos se usan con las clases, métodos, atributos y constructores.
 
  * **Static**
-  * Si se declara una variable como `Static` estamos haciendo lo que se conoce como una variable global. Al declarar un objeto, no se realizará una copia de una variable estatica. Por el contrario, todas las instancias de la clase, compartiran la misma variable estatica.
-  * No es necesario instanciar un objeto, para acceder a una variable estatica, simplemente accederemos mediante su clase.
+ 	 * Si se declara una variable como `Static` estamos haciendo lo que se conoce como una variable global. Al declarar un objeto, no se realizará una copia de una variable estatica. Por el contrario, todas las instancias de la clase, compartiran la misma variable estatica.
+  	 * No es necesario instanciar un objeto, para acceder a una variable estatica, simplemente accederemos mediante su clase.
 
   ```Java
   public class MiClase {
@@ -43,6 +43,13 @@ Los modificadores *final* y *static*, son lo que se conocen con el nombre de **M
   	}
   }
 ```
+ 
+ * **final**
+ 	 * Los atributos declarados como `final` no verán variado su valor durante toda la ejecución del programa.
+ 	 * Se emplea principalmente para definir constantes.
+ 	 * Tambien lo podemos usar para definir clases como `finales`. Este tipo de clases, no pueden ser heredadas.
+ 	 * Su principal uso en clases, es evitar que otras puedan heredar de estas.
+ 	 * Tambien se puede emplear en la definición de métodos, para que su definición en clases derivadas sea exactamente la misma que donde fué declarado.
 
 
 [^1]: Para indicar que un método o atributo tiene el modificador de acceso como *default* simplemente pondremos el mètodo o atributo sin indicar modificador de acceso. Ej: int numero; Este sería un atributo con modificador de acceso *default*
