@@ -16,7 +16,11 @@ public class RunConversion {
 		int numeroEntero = 4;
 		float numeroDecimal = 3.14f;
 		
+		System.out.println("Valor Numero Entero: " + numeroEntero);
 		//Conversion Explicita mediante Casting
 		numeroEntero = (int) numeroDecimal;
+		System.out.println("Valor Numero Entero: " + numeroEntero);
+
+		System.out.println(coche);
 	}
 }
