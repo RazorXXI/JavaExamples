@@ -52,5 +52,5 @@ Los modificadores *final* y *static*, son lo que se conocen con el nombre de **M
  	 * Tambien se puede emplear en la definición de métodos, para que su definición en clases derivadas sea exactamente la misma que donde fué declarado.
 
 
-[^1]: Para indicar que un método o atributo tiene el modificador de acceso como *default* simplemente pondremos el mètodo o atributo sin indicar modificador de acceso. Ej: int numero; Este sería un atributo con modificador de acceso *default*
+[^1]: Para indicar que un método o atributo tiene el modificador de acceso como *default* simplemente pondremos el mètodo o atributo sin indicar modificador de acceso. Ej: `int numero;`. Este sería un atributo con modificador de acceso *default*
 [^2]: Para definir una constatnte, deberemos indicar que es ademas static. Otro detalle es que las constantes se nombran en mayusculas. Ej: `public static final float VALOR_PI = 3.14159;`
