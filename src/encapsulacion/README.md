@@ -46,10 +46,11 @@ Los modificadores *final* y *static*, son lo que se conocen con el nombre de **M
  
  * **final**
  	 * Los atributos declarados como `final` no verán variado su valor durante toda la ejecución del programa.
- 	 * Se emplea principalmente para definir constantes.
+ 	 * Se emplea principalmente para definir constantes[^2].
  	 * Tambien lo podemos usar para definir clases como `finales`. Este tipo de clases, no pueden ser heredadas.
  	 * Su principal uso en clases, es evitar que otras puedan heredar de estas.
  	 * Tambien se puede emplear en la definición de métodos, para que su definición en clases derivadas sea exactamente la misma que donde fué declarado.
 
 
 [^1]: Para indicar que un método o atributo tiene el modificador de acceso como *default* simplemente pondremos el mètodo o atributo sin indicar modificador de acceso. Ej: int numero; Este sería un atributo con modificador de acceso *default*
+[^2]: Para definir una constatnte, deberemos indicar que es ademas static. Otro detalle es que las constantes se nombran en mayusculas. Ej: public static final float VALOR_PI = 3.14159f;
