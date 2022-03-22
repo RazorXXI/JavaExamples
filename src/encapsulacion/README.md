@@ -6,6 +6,14 @@ Básicamente lo que se hace es ocultar los detalles de la implementación de la 
 
 En ejemplos anteriores, hemos visto ya la encapsulación, mediante la declaración y uso de los métodos `get`y `set` los cuales nos permitian leer o escribir en los atributos, los cuales no eran accesibles si no era a traves de estos métodos.
 
+Podemos resumir el encapsulamiento en los siguientes puntos: 
+ 
+ * Es el principio de la POO que permite separar la interfaz de la implementación en una clase.
+ * El objetivo de la encapsulación es conseguir **reducir el acoplamiento** entre las clases.
+ * La comunicación entre clases solo se realiza a través del **intercambio de mensajes**.
+ * Los atributos y operaciones de uso interno, serán definidos como **privados**.
+ * Las operaciones consideradas parte de la interfaz de la clase, se definirán como **publicas**.
+
 # Modificadores de acceso
 
 Los modificadores de acceso se dividen en 4 niveles y en el siguiente cuadro vemos cual es su nivel de accesibilidad:
