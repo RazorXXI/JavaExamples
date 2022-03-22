@@ -45,6 +45,9 @@ public class ClaseLocal {
 		}
 		
 		ClaseLocalMetodo objLocalMetodo = new ClaseLocalMetodo("AtributoLocal");
+		ClaseLocalMetodo objLocalMetodo2 = new ClaseLocalMetodo();
+
+		objLocalMetodo2.SetAtributoInternoMetodo("Atributo");
 		
 		return objLocalMetodo.GetAtributoInternoMetodo();
 	}
