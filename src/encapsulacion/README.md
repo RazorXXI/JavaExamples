@@ -59,7 +59,15 @@ Los modificadores *final* y *static*, son lo que se conocen con el nombre de **M
   	}
   }
  ```
+ Los elementos `static` son aquellos que **pertenecen a la clase** en vez de al objeto en particular.
+
+ Es por ello que:
+  
+ - No es necesario instanciar la clase, para poder acceder a ellos.
+ - Se comparten entre todas las instancias de una clase.
  
+  
+
  * **final**
  	 * Los atributos declarados como `final` no verán variado su valor durante toda la ejecución del programa.
  	 * Se emplea principalmente para definir constantes[^2].
