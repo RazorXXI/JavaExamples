@@ -27,7 +27,7 @@ La definición formal nos dice que el operador `this`:
 
  Si vemos en el ejemplo, tanto atributos como los parámetros del constructor se llaman igual, si no usaramos `this` el compilador de Java no sabria si nos estamos refiriendo a los parámetros o a los atributos.
 
- Te invito a que hagas la prueba del ejemplo quitando `this` y dejando `a=a;` veras que te indica tu IDE al respecto...
+ Te invito a que hagas la prueba del ejemplo quitando `this` y dejando `a=a;` veras que te indica tu IDE al respecto... 😜
 
 Del mismo modo, podemos usar `this` para llamar a otro constructor dentro de la misma clase, el cual tenga una serie de parámetros. Vamos con un ejemplo:
 
