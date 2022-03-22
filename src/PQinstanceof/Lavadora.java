@@ -1,4 +1,4 @@
-package instanceOf;
+package PQinstanceof;
 
 public class Lavadora implements IElectrodomestico {
 	private int consumo;

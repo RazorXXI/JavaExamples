@@ -1,4 +1,4 @@
-package instanceOf;
+package PQinstanceof;
 
 import java.util.Scanner;
 

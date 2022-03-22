@@ -1,4 +1,4 @@
-package instanceOf;
+package PQinstanceof;
 
 public class Microhondas implements IElectrodomestico {
 	public String marca;

@@ -1,4 +1,4 @@
-package instanceOf;
+package PQinstanceof;
 
 public interface IElectrodomestico {
 	public int getConsumo();
