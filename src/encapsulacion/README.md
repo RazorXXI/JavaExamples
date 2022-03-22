@@ -1,5 +1,11 @@
 # Encapsulación
 
+La encapsulación es un mecanismo de la POO, mediante el cual los datos (atributos o variables) y métodos se empaquetan en una sola unidad, ocultando de esta forma los datos, los cuales unicamente podrán ser accedidos mediante los métodos de clase.
+
+Básicamente lo que se hace es ocultar los detalles de la implementación de la clase a los usuarios, dejando unicamente acceso a los métodos de esta para poder operar con ella.
+
+En ejemplos anteriores, hemos visto ya la encapsulación, mediante la declaración y uso de los métodos `get`y `set` los cuales nos permitian leer o escribir en los atributos, los cuales no eran accesibles si no era a traves de estos métodos.
+
 # Modificadores de acceso
 
 Los modificadores de acceso se dividen en 4 niveles y en el siguiente cuadro vemos cual es su nivel de accesibilidad:
