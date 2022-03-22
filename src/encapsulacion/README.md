@@ -53,4 +53,4 @@ Los modificadores *final* y *static*, son lo que se conocen con el nombre de **M
 
 
 [^1]: Para indicar que un método o atributo tiene el modificador de acceso como *default* simplemente pondremos el mètodo o atributo sin indicar modificador de acceso. Ej: int numero; Este sería un atributo con modificador de acceso *default*
-[^2]: Para definir una constatnte, deberemos indicar que es ademas static. Otro detalle es que las constantes se nombran en mayusculas. Ej: public static final float VALOR_PI = 3.14159f;
+[^2]: Para definir una constatnte, deberemos indicar que es ademas static. Otro detalle es que las constantes se nombran en mayusculas. Ej: `public static final float VALOR_PI = 3.14159;`
