@@ -24,3 +24,5 @@ Actualmente las carpetas que podemos encontrar son:
  - [Herencia](/src/herencia): Ejemplos y tips del uso de la Herencia en Java.
  - [Operador instanceof y Método finalize](/src/PQinstanceof): Ejemplo y tips de uso del operador instanceof y finalize en Java.
  - [Encapsulación](/src/encapsulacion): Ejemplo y tips del concepto de encapsulación en JAVA así como sus modificadores de acceso.
+ - [Operador *Super*](src/opsuper): Ejemplos y tips del operador **super**.
+ - [Operador *this*](src/opthis): Ejemplos y tips del operador **this**.
