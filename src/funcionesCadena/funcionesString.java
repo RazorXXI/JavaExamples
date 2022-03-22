@@ -13,10 +13,12 @@ public class funcionesString {
 		System.out.println("Cadena 1: " + cadena1);
 		System.out.println("Cadena 2: " + cadena2);
 		
-		//Comprobacion de si una cadena esta vacia o no
-		if(cadenaVacia != null)
-			System.out.println("La cadena esta NO ESTA VACIA");
-		else System.out.println("La cadena ESTA VACIA");
+		
+		if (cadenaVacia.isEmpty()) {
+			System.out.println("La Cadena esta vacia");
+		} else {
+			System.out.println("La Cadena no esta vacia");
+		}
 
 		
 		//Otra manera de comprobar si una cadena esta vacia o no
