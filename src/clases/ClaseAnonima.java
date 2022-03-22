@@ -6,7 +6,7 @@ public class ClaseAnonima {
 	private ClasePublica objClasePublica;
 	
 	public ClaseAnonima() {
-		this.atributo1 = "";
+		this.setAtributo1("");
 		
 		//Esta es la clase anonima
 		//Y esta redefiniendo un metodo de ClasePublica
@@ -18,6 +18,14 @@ public class ClaseAnonima {
 		};
 	}
 	
+	public String getAtributo1() {
+		return atributo1;
+	}
+
+	public void setAtributo1(String atributo1) {
+		this.atributo1 = atributo1;
+	}
+
 	public String GetMensajeClaseAnonima() {
 		return this.objClasePublica.GetAtributoString1();
 	}
