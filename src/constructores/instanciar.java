@@ -1,7 +1,5 @@
 package constructores;
 
-import constructores.Coches;
-
 public class instanciar {
 	public static void main(String[] args) {
 
@@ -14,6 +12,10 @@ public class instanciar {
 
 		//Instancia usando otro constructor sobrecargado
 		Coches seatCoche = new Coches("Seat", "Cordoba");
+
+		System.out.println(nuevoCoche);
+		System.out.println(nissanCoche);
+		System.out.println(seatCoche);
 
 	}
 }
