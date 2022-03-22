@@ -5,7 +5,7 @@ public class Coche {
 	protected String color; //Acceso tipo protected
 	private int precio;		//Acceso tipo private
 	int velocidadPunta;		//Acceso tipo default
-	public String matricula;//Acceso tipo public
+	public String matricula;	//Acceso tipo public
 	
 	public Coche(String color, int precio, int velocidadPunta, String matricula) {
 		super();
