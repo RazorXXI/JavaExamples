@@ -7,8 +7,16 @@ public class ClaseLocal {
 	public ClaseLocal() {
 	}
 	
+	public String getAtributo1() {
+		return atributo1;
+	}
+
+	public void setAtributo1(String atributo1) {
+		this.atributo1 = atributo1;
+	}
+
 	public ClaseLocal(String atr1, String atr2) {
-		this.atributo1 = atr1;
+		this.setAtributo1(atr1);
 		this.atributo2 = atr2;
 	}
 	
