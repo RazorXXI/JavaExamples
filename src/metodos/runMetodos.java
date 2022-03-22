@@ -1,10 +1,10 @@
+package metodos;
+
 import clases.Television;
-import metodos.TiposDeMetodos;
 
 public class runMetodos {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		TiposDeMetodos varMetodo = new TiposDeMetodos();
 		Television miTelevision;

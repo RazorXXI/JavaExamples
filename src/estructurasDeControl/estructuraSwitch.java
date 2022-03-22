@@ -1,3 +1,5 @@
+package estructurasDeControl;
+
 import java.util.*;
 /**
  * Estructura de control Switch
@@ -28,12 +30,11 @@ public class estructuraSwitch {
 
 	public static void main(String[] args) {
 		int dia;
-		String nombreDia;
 
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Introduzca un valor para el dia de la semana <1..7>: ");
-		dia = sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.print("Introduzca un valor para el dia de la semana <1..7>: ");
+			dia = sc.nextInt();
+		}
 		
 		switch(dia)
 		{

@@ -19,6 +19,7 @@ public class ClaseLocal {
 			private String atributoInternoLocal;
 			
 			public ClaseLocalMetodo() {
+				super();
 			}
 			
 			public ClaseLocalMetodo(String atr1) {

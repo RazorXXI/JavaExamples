@@ -1,4 +1,8 @@
+package metodos;
+
 import java.util.*;
+
+import clases.Television;
 
 public class TiposDeMetodos {
 /**
@@ -20,14 +24,14 @@ public class TiposDeMetodos {
 	public void multiplicar() {
 		float num1, num2, producto;
 		
-		//Lo usamos para leer por teclado
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Introduce un numero: ");
-		num1 = sc.nextInt();
-		
-		System.out.println("Introduce numero para multiplicar: ");
-		num2 = sc.nextInt();
+		try (//Lo usamos para leer por teclado
+		Scanner sc = new Scanner(System.in)) {
+			System.out.println("Introduce un numero: ");
+			num1 = sc.nextInt();
+			
+			System.out.println("Introduce numero para multiplicar: ");
+			num2 = sc.nextInt();
+		}
 		
 		producto = num1 * num2;
 		
@@ -38,11 +42,11 @@ public class TiposDeMetodos {
 	public static float multiplicar(float multiplicador) {
 		float num1, producto;
 		
-		//Lo usamos para leer por teclado
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.println("Introduce un numero: ");
-		num1 = sc.nextInt();
+		try (//Lo usamos para leer por teclado
+		Scanner sc = new Scanner(System.in)) {
+			System.out.println("Introduce un numero: ");
+			num1 = sc.nextInt();
+		}
 		
 		producto = num1 * multiplicador;
 		

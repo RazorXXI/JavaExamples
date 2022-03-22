@@ -1,3 +1,5 @@
+package mapas;
+
 import java.util.*;
 import clases.Television;
 /**

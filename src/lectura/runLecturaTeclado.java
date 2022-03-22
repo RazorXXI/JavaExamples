@@ -1,6 +1,6 @@
-import java.io.IOException;
+package lectura;
 
-import lecturaTeclado.*;
+import java.io.IOException;
 
 public class runLecturaTeclado {
 

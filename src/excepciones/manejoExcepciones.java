@@ -1,3 +1,5 @@
+package excepciones;
+
 /**
  * Excepciones en Java
  * 
@@ -54,8 +56,8 @@ public class manejoExcepciones {
 		
 		//Vamos a forzar una excepcion
 		try {
-//			System.out.println("Vamos a lanzar una excepcion...!");
-//			arNumeros[7] = 14; //Vamos a acceder a una posicion que no existe
+			System.out.println("Vamos a lanzar una excepcion...!");
+			arNumeros[7] = 14; //Vamos a acceder a una posicion que no existe
 			metodoExcepcion();
 			
 		}

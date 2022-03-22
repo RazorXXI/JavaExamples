@@ -1,4 +1,4 @@
-import java.util.*;
+package funcionesCadena;
 
 public class funcionesString {
 	public static void main(String[] args) {
@@ -14,11 +14,10 @@ public class funcionesString {
 		System.out.println("Cadena 2: " + cadena2);
 		
 		//Comprobacion de si una cadena esta vacia o no
-		if(cadenaVacia == null)
-			System.out.println("La cadena esta VACIA");
-		else {
-			System.out.println("La cadena no esta VACIA");
-		}
+		if(cadenaVacia != null)
+			System.out.println("La cadena esta NO ESTA VACIA");
+		else System.out.println("La cadena ESTA VACIA");
+
 		
 		//Otra manera de comprobar si una cadena esta vacia o no
 		if(cadena1.isEmpty())

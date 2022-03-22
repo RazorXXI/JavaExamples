@@ -1,20 +1,20 @@
 package constructores;
 
 import java.util.*;
-import constructores.coches;
+import constructores.Coches;
 
 public class instanciar {
 	public static void main(String[] args) {
 
 		//Instancia de la clase coches
 		//Usando el constructor por defecto
-		coches nuevoCoche = new coches();
+		Coches nuevoCoche = new Coches();
 		
 		//Instancia usando uno de los constructores sobrecargado
-		coches nissanCoche = new coches("Nissan", "Pulse", 32000);
+		Coches nissanCoche = new Coches("Nissan", "Pulse", 32000);
 
 		//Instancia usando otro constructor sobrecargado
-		coches seatCoche = new coches("Seat", "Cordoba");
+		Coches seatCoche = new Coches("Seat", "Cordoba");
 
 	}
 }

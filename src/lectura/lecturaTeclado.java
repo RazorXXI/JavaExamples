@@ -1,3 +1,5 @@
+package lectura;
+
 import java.io.*;
 import java.util.*;
 
@@ -20,20 +22,21 @@ public class lecturaTeclado {
 	}
 	
 	public void lecturaScannerString() {
-		Scanner sc = new Scanner(System.in);
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Te voy a cambiar el nombre: " + nombreString);
+			System.out.print("Dime un nuevo nombre: ");
+			nombreString = sc.nextLine();
+		}
 		
-		System.out.println("Te voy a cambiar el nombre: " + nombreString);
-		System.out.print("Dime un nuevo nombre: ");
-		nombreString = sc.nextLine();
 		System.out.println("Ahora te llamas " + nombreString);
 
 	}
 	
 	public void leerEdad() {
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Indique su edad: ");
-		edad = sc.nextInt();
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.print("Indique su edad: ");
+			edad = sc.nextInt();
+		}
 	}
 
 	public String getNombreString() {
