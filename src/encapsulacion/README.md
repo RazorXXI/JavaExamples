@@ -33,7 +33,7 @@ Podemos ver esto mejor, si observamos los ejemplos de las clases [Coche](Coche.j
 
 Los modificadores *final* y *static*, son lo que se conocen con el nombre de **Modificadores de No Acceso**. Estos se usan con las clases, métodos, atributos y constructores.
 
- * **Static**
+ ### Modificador **Static**
  	 * Si se declara una variable como `Static` estamos haciendo lo que se conoce como una variable global. Al declarar un objeto, no se realizará una copia de una variable estatica. Por el contrario, todas las instancias de la clase, compartiran la misma variable estatica.
   	 * No es necesario instanciar un objeto, para acceder a una variable estatica, simplemente accederemos mediante su clase.
 
@@ -68,7 +68,7 @@ Los modificadores *final* y *static*, son lo que se conocen con el nombre de **M
  
   
 
- * **final**
+ ### Modificador **final**
  	 * Los atributos declarados como `final` no verán variado su valor durante toda la ejecución del programa.
  	 * Se emplea principalmente para definir constantes[^2].
  	 * Tambien lo podemos usar para definir clases como `finales`. Este tipo de clases, no pueden ser heredadas.
