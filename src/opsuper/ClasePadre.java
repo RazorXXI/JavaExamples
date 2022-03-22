@@ -21,6 +21,22 @@ public class ClasePadre {
         return "ClasePadre [atributoPadre1=" + atributoPadre1 + ", atributoPadre2=" + atributoPadre2 + "]";
     }
 
+    public String getAtributoPadre1() {
+        return atributoPadre1;
+    }
+
+    public void setAtributoPadre1(String atributoPadre1) {
+        this.atributoPadre1 = atributoPadre1;
+    }
+
+    public String getAtributoPadre2() {
+        return atributoPadre2;
+    }
+
+    public void setAtributoPadre2(String atributoPadre2) {
+        this.atributoPadre2 = atributoPadre2;
+    }
+
     
     
 }
