@@ -1,4 +1,4 @@
-# Encapsulamiento
+# Encapsulación
 
 # Modificadores de acceso
 
