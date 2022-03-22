@@ -36,7 +36,4 @@ public class ClasePadre {
     public void setAtributoPadre2(String atributoPadre2) {
         this.atributoPadre2 = atributoPadre2;
     }
-
-    
-    
 }
