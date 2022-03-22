@@ -50,6 +50,7 @@ public class Arrays {
 		System.out.println(args[0]);
 		System.out.println(args[1]);
 		
+		System.out.println("Tamaño del arrayCadena2: " + arrayCadena2.length + "elementos");
 		/**
 		 * Explicación del String[] args del método main.
 		 * 
