@@ -2,7 +2,7 @@ package clases;
 
 public class Garage {
 	//Declaración de Constantes
-	private static final int _NUM_PLAZAS_DEFAULT = 60;
+	private static final int NUM_PLAZAS_DEFAULT = 60;
 		
 	//Declaracion de atributos
 	private Plaza[] plazas;
@@ -18,7 +18,11 @@ public class Garage {
 		
 	//Constructor por defecto
 	public Garage() {
-		this.numPlazas = _NUM_PLAZAS_DEFAULT;
+		this.numPlazas = NUM_PLAZAS_DEFAULT;
 		this.plazas = new Plaza[numPlazas]; 
+	}
+
+	public int getNumPlazas(){
+		return this.plazas.length;
 	}
 }
