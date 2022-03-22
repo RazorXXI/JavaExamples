@@ -2,7 +2,7 @@ package encapsulacion;
 
 //Ejemplo de la clase Coche con diferentes modificadores de acceso
 public class Coche {
-	protected String color; //Acceso tipo protected
+	protected String color; 	//Acceso tipo protected
 	private int precio;		//Acceso tipo private
 	int velocidadPunta;		//Acceso tipo default
 	public String matricula;	//Acceso tipo public
