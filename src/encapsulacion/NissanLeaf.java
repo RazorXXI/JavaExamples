@@ -1,29 +1,25 @@
 package encapsulacion;
 
 public class NissanLeaf implements CocheElectrico {
-    private int capacidadBateria;
+    private Bateria bateria;
     private boolean estado;
     private static final int CAPACIDAD_MAX = 100;
 
 
     public NissanLeaf(int capacidadBateria, boolean estado) {
         super();
-        this.capacidadBateria = capacidadBateria;
+        this.bateria = new Bateria(capacidadBateria, CAPACIDAD_MAX);
         this.estado = estado;
     }
 
     @Override
     public int getCapacidadBateria() {
-        return this.capacidadBateria;
+        return bateria.getCapacidadBateria();
     }
 
     @Override
     public void setCapacidadBateria(int capacidadBateria) {        
-        if (capacidadBateria > CAPACIDAD_MAX) {
-            this.capacidadBateria = CAPACIDAD_MAX;
-            System.out.println("La capacidad introducida es mayor que la capacidad Máxima: " + CAPACIDAD_MAX + " KwH Se configura a la capacidad máxima" );
-        }
-        else this.capacidadBateria = capacidadBateria;
+        bateria.setCapacidadBateria(capacidadBateria);
     }
 
     @Override
@@ -38,15 +34,7 @@ public class NissanLeaf implements CocheElectrico {
 
     @Override
     public int autonomiaBateria() {
-        int autonomiaKm;
-
-        if (capacidadBateria < 10) {
-            autonomiaKm = 100;
-        } else if (capacidadBateria > 10 && capacidadBateria <50){
-            autonomiaKm = 300;
-        }
-        else autonomiaKm = 500;
-        return autonomiaKm;
+        return bateria.autonomiaBateria();
     }
     
 }
