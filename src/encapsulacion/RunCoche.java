@@ -10,7 +10,7 @@ public class RunCoche {
 		System.out.println("Matricula del Vehiculo: " + miCoche.matricula);
 		
 		//Accedo al atributo color que es de tipo protected, pero como estoy dentro del mismo package puedo acceder
-		System.out.println("Color del Vehiculo: "+miCoche.color);
+		System.out.println("Color del Vehiculo: "+ miCoche.color);
 		
 		//Accedo al atributo velocidadPunta que es de tipo protected, como estoy dentro del mismo package puedo acceder
 		System.out.println("Velocidad Máxima: " + miCoche.velocidadPunta + " Km/h");
