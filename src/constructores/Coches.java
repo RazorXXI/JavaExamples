@@ -1,7 +1,5 @@
 package constructores;
 
-import java.util.*;
-
 public class Coches {
 	private String marca;
 	private String modelo;
@@ -37,5 +35,27 @@ public class Coches {
 		this.precio = precio;
 	}
 
-	
+	public String getMarca() {
+		return marca;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public String getModelo() {
+		return modelo;
+	}
+
+	public void setModelo(String modelo) {
+		this.modelo = modelo;
+	}
+
+	public int getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(int precio) {
+		this.precio = precio;
+	}
 }
