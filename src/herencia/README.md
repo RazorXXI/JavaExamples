@@ -22,7 +22,7 @@ La sintaxis es la siguiente:
 }
 ```
 
-Un ejemplo de esto, lo podemos ver en el ejemplo de la [Clase Coche](coche.java), la cual sería la clase padre o superclase y la [Clase Ford](ford.java), que seria la subclase de `Coche` y a su vez la [Clase FordScort](fordscort.java) que sería subclase de la clase `Ford`. 
+Un ejemplo de esto, lo podemos ver en el ejemplo de la [Clase Coche](Coche.java), la cual sería la clase padre o superclase y la [Clase Ford](Ford.java), que seria la subclase de `Coche` y a su vez la [Clase FordScort](FordScort.java) que sería subclase de la clase `Ford`. 
 
 Como podemos ver, la `herencia` nos permite establecer relaciones entre objetos. Pero la herencia no es el único mecanismo para establecer relaciones.
 
