@@ -1,5 +1,6 @@
 package arrays;
 
+//Ejemplo de manejo de Arrays
 import clases.Television;
 
 public class Arrays {
