@@ -1,6 +1,6 @@
 package constructores;
 
-public class instanciar {
+public class Instanciar {
 	public static void main(String[] args) {
 
 		//Instancia de la clase coches

@@ -1,6 +1,6 @@
 package funcionesCadena;
 
-public class funcionesString {
+public class FuncionesString {
 	public static void main(String[] args) {
 		
 		String cadenaVacia = null; //Declaracion de una cadena vacia
